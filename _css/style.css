@@ -76,3 +76,40 @@ button:hover {
     background-color: #444;
 }
 
+/* Layout sections */
+#topo {
+    background: linear-gradient(180deg,#0a0a0a,#0f0f0f);
+    padding: 20px 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+#topo header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+#corpo {
+    background-color: #070707;
+    padding: 24px;
+    margin: 18px 0;
+    border-radius: 8px;
+}
+#corpo main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#rodape {
+    text-align: center;
+    padding: 10px 8px;
+    color: #aaa;
+    font-size: 0.9rem;
+    border-top: 1px solid #222;
+}
+
+@media (max-width: 600px) {
+    #topo header h1 { font-size: 20px; }
+    body { margin: 12px; }
+}
+
